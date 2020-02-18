@@ -39,7 +39,7 @@ for(let i = 0; i < 10; i++) {
 ### Increment and Decrement Operators
 There are two unary operators that can each be used in two different ways.  If used before the variable identifier, the operation is effective as soon as it is evaluated.  If used after the variable identifier, the operation takes place after the end of the statement. `--` decrements and `++` increments.
 ```
-let i = 1
+let i = 1;
 let n;
 n = ++i; // n === 2, i === 2
 n = i++; // n === 2, i === 3 AFTER the semicolon
